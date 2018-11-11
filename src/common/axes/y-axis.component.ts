@@ -56,7 +56,7 @@ export class YAxisComponent implements OnChanges {
   @Input() labelText;
   @Input() yAxisTickInterval;
   @Input() yAxisTickCount: any;
-  @Input() yOrient: string = 'left';
+  @Input() yOrient: string = 'right';
   @Input() referenceLines;
   @Input() showRefLines;
   @Input() showRefLabels;
